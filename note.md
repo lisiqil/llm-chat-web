@@ -4,7 +4,7 @@ uv run --with openai python test.py
 
 后端启动
 cd backend
-uv run uvicorn app.main:app --host 127.0.0.1 --port 8000
+GOWORK=off go run ./app/api
 
 前端启动
 cd frontend
